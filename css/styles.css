@@ -1,0 +1,166 @@
+:root {
+  --primary-color: #212121;
+  --secondary-color: #757575;
+  --accent-color: #2196f3;
+  --team-bt-background-color: #f5f4fa;
+  --primary-background-color: #e5e5e5;
+  --primary-font: "Roboto", sans-serif;
+  --normal-font: 400;
+  --medium-font: 500;
+  --bold-font: 700;
+  --primary-font-size: 16px;
+  --secondary-font-size: 36px;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+.active-color {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+  letter-spacing: 0.03em;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--primary-color);
+}
+.nav-link-current {
+  color: var(--accent-color);
+}
+.service_button {
+  border: none;
+  background-color: var(--accent-color);
+  color: var(--team-bt-background-color);
+}
+.button-primary {
+  color: var(--team-bt-background-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  font: #ffffff;
+}
+
+.button-secondary {
+  color: var(--accent-color);
+  background-color: var(--team-bt-background-color);
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  font: var(--primary-color);
+}
+.orderservices {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+.orderservices-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.features {
+  visibility: hidden;
+}
+.title-features {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-color);
+}
+
+.text-features {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #757575;
+}
+.our-team {
+  background-color: var(--team-background-color);
+}
+.name-surname {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+  color: var(--primary-color);
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.1;
+  color: var(--secondary-color);
+}
+.footer {
+  background-color: #2f303a;
+  height: 600px;
+}
+.adress {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+
+.contact {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+}
+.portfolio-name-option {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--secondary-color);
+}
+
+/* common styles */
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.section {
+  background-color: var(--primary-background-color);
+}
+.section-title {
+  font-weight: 700;
+  color: var(--primary-color);
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+.content {
+  width: 1170px;
+  margin: 0 auto;
+}
